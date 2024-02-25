@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Class</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div id="container">
+      <p id="heading">Dice Roller</p>
+      <div id="numTray">
+        <label for="textBox">No. of dice: </label>
+        <input type="number" id="textBox" value="1" min="1" max="5" />
+      </div>
+
+      <button id="rollBtn" onclick="rollDice()">Roll dice</button>
+      <div id="diceResult"></div>
+      <div id="diceImg"></div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
